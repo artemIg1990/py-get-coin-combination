@@ -11,7 +11,7 @@ import pytest
         (6, [1, 1, 0, 0]),
         (17, [2, 1, 1, 0]),
         (50, [0, 0, 0, 2])
-     ]
+    ]
 )
 def test_coin_combination(coin_value: int, coin_combo: list) -> None:
     assert (get_coin_combination(coin_value) == coin_combo),\
